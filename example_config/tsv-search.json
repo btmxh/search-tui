@@ -1,0 +1,11 @@
+{
+    "query_command": {
+        "executable": "/usr/bin/sh",
+        "args": [
+            "-c",
+            "curl --request POST --data '\\{\"jsonrpc\": \"2.0\", \"id\": \"1\", \"method\": \"search\", \"params\": [\"{query_escaped}\", 10]}' http://localhost:36736/jsonrpc | jq .result"
+        ]
+    },
+    "timeout_millis": 100,
+    "display_template": "{one_based_index}. {title} (confidence {confidence})"
+}
