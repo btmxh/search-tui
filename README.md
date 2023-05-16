@@ -68,7 +68,7 @@ in git bash for windows idk).
 
 this was designed as a search tui to make the
 [nrs](https://github.com/ngoduyanh/nrs-impl) entry ranking process much less
-painful, it was intended to be invoked from some nrs rank script (which 
+painful, it was intended to be invoked from some nrs rank script (which
 explains its stdout/stderr nature). bla bla unix philosophy...
 
 ## License
